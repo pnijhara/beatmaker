@@ -12,8 +12,8 @@ const colors = [
 console.log(music)
 
     for(let i = 0; i < pads.length; i++){
-        console.log(pads[i]);
-        pads[i].addEventListener("click", function(){
+        console.log(music[i]);
+        pads[i].addEventListener("click", function() {
             music[i].currentTime = 0;
             music[i].play();
             createBubble(i);
