@@ -1,5 +1,41 @@
-body{
-    text-align: center;
-    padding-top: 2%;
+* {
     font-family: 'Monoton', cursive;
+    text-align: center;
 }
+
+.motion{
+    padding-top: 10%;
+    /* rest of the styling for motion will be done here */
+}
+.pads{
+    background: coral;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    
+}
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+  }
+.pad1 {
+    background: #f1a762;
+  }
+.pad2 {
+    background:  #ff8080;
+}
+.pad3 {
+    background: #a7e7c0;
+}
+.pad4 {
+    background: #a7a6f5;
+}
+.pad5 {
+    background: #f3f598;
+}
+.pad6 {
+    background: #f788f7;
+}
+
