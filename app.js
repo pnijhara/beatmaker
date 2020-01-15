@@ -4,7 +4,7 @@ const visual = document.querySelector(".motion");
 const colors = [
     '#f1a762',
     '#ff8080',
-    'a7e7c0',
+    '#a7e7c0',
     '#a7a6f5',
     '#f3f598',
     '#f788f7',
@@ -31,10 +31,10 @@ console.log(music)
     function createBubble(i){
         //Create bubbles
         const bubble = document.createElement("div");
-        motion.appendChild(bubble);
+        visual.appendChild(bubble);
         bubble.style.backgroundColor = colors[i];
         bubble.style.animation = `jump 1s ease`;
         bubble.addEventListener("animationend", function() {
-          motion1.removeChild(this);
+          visual.removeChild(this);
         });
       };
